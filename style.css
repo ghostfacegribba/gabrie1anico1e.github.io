@@ -1,0 +1,167 @@
+/* Floating Clothes Style Sheet */
+* {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+html,body{
+	height: 100%;
+}
+
+/* NAVIGATION BAR */
+/* Add a background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow:hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 5px 50px;
+  text-decoration: none;
+  font-size: 17px;
+
+ /* TRYING TO FIGURE OUT HOW TO ALIGN THE NAV BAR BETTER*/ 
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  }
+
+  /* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/*TEXT EDITS*/
+	h1{
+	color: #ffcf03;
+	font-family: sans-serif;
+	text-align: center;
+		}
+	h2{
+	color: ghostwhite;
+	font-family: sans-serif;
+	text-align: center;
+	}
+	h3{
+		font-family: sans-serif;
+		size: 4px;
+	}
+	p{
+	color: whitesmoke;
+	font-family: sans-serif;
+	text-align: center;
+	margin-left: 100px;
+	margin-right: 100px;
+	padding: 1em;
+	}
+article{
+	font-family: sans-serif;
+	color: whitesmoke;
+	padding: 1em;
+}
+
+
+/*PAGE EDITS*/
+
+body {
+  background-color: #581845;
+}
+
+header{
+	font-family: sans-serif;
+}
+div{
+	margin: 50px 200px;
+}
+link{
+	text-align: center;
+}
+
+.centre{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+
+/*HERO IMAGE GRADIENT*/
+
+header {
+    height:200px;
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+    overflow: hidden;
+    background: #C04848;  /* fallback for old browsers */
+    background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8));
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/*HERO IMAGE FORMATTING*/
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1598775378121-e24f7062c151?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80");
+
+  /* Set a specific height */
+  height: 80%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+
+/*FOOTER*/
+
+
+#container{
+	min-height: 100%;
+}
+#main{
+	float: left;
+	padding: 10px 50px;
+	width: 3000px;
+	height: 200 px;
+	background-color: #ffcf03;
+	overflow: hidden;
+}
+#footer{
+	background-color: ##ffcf03;
+	position: relative;
+	height: 100px;
+	clear: both;
+	font-family: sans-serif;
+}
+
+
